@@ -73,10 +73,8 @@ function doesWordExist(wordsArray, wordToFind) {
         if (wordsArray[i] === wordToFind) {
             return true; 
         }
-      else {
-         return false; 
-      }
     }
+    return false; 
 }
 
 console.log(doesWordExist(words2, "machine"))
